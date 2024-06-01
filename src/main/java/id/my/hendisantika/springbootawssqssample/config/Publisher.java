@@ -39,7 +39,7 @@ public class Publisher {
                     .id(id)
                     .content("message")
                     .createdAt(new Date()).build();
-            var result = amazonSQSClient.sendMessage(queueUrl.getQueueUrl(), objectMapper.writeValueAsString(message));
+            amazonSQSClient.sendMessage(queueUrl.getQueueUrl(), objectMapper.writeValueAsString(message));
         } catch (Exception e) {
             log.error("Queue Exception Message: {}", e.getMessage());
         }
