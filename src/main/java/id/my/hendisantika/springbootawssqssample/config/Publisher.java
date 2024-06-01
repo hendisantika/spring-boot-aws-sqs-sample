@@ -3,6 +3,7 @@ package id.my.hendisantika.springbootawssqssample.config;
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.model.GetQueueUrlResult;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import id.my.hendisantika.springbootawssqssample.model.Message;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
