@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-sqs</artifactId>
-            <version>1.12.776</version>
+            <version>1.12.778</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
